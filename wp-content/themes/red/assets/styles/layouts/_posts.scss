@@ -1,0 +1,84 @@
+.entry-summary p {
+  font-weight: 400;
+  color: $grey;
+  line-height: 1.3em;
+}
+  
+.divider {
+  width: 100%;
+  border-bottom: 1px solid $light-grey;
+  margin-bottom: 30px;
+}
+
+.home-research-section {
+ .col-xs-8 {
+    a.read-all-research {
+      display: block;
+      float: right;
+      margin-bottom: 40px;
+    }
+    article:nth-last-child(1) {
+      .divider {display: none;}
+       margin-bottom: 80px;
+    }
+  }
+}
+
+article { 
+  .entry-summary p {
+    margin-bottom: 0;
+  }
+}
+
+.byline.author.vcard {
+  color: $dark-grey;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  font-size: 14px;
+  line-height: 14px;
+
+  a,
+  time {
+    color: $dark-grey;
+    font-weight: 700;
+  }
+
+}
+
+.entry-title {
+  font-weight: 700;
+  font-family: $alt-font-family;
+  margin-top: 5px;
+  margin-bottom: 0px;
+
+  a {
+    color: $dark-grey;
+
+    &:hover {
+      color: $REDD-red;
+      text-decoration: none;
+    }
+
+  }
+
+  &.page {
+    margin-top: 50px;
+  }
+}
+
+.entry-content {
+  h1,h2,h3,h4,h5 {
+    font-family: $alt-font-family;
+    font-weight: 700;
+  }
+
+  h3 {
+    text-transform: none;
+    font-size: 24px;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+}

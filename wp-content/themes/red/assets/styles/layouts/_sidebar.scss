@@ -1,0 +1,86 @@
+section.widget {
+
+	&:first-child {
+		h3 {
+			margin-top: 0px;
+		}
+	}
+
+	h3{
+		margin: 40px 0 10px 0px;
+		font-size: 1em;
+		text-transform: uppercase;
+	}
+
+	ul {
+		margin: 0 0 0 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+//where no info exists / widgit styling
+section.widget,
+.red-sidebar {
+
+	.divider {
+		margin-top: 45px;
+		margin-bottom: 45px;
+	}
+
+	h3 {
+		font-weight: 700;
+	}
+
+	
+}
+
+.col-xs-4 .red-sidebar {
+
+	article {
+		margin-bottom: 30px;
+	}
+
+	h3 {
+		margin-bottom: 30px;
+	}
+
+	h4 {
+		line-height: 1.3em;
+
+		&.entry-title {
+			margin-bottom: 5px;
+		}
+	}
+
+}
+
+div.mc4wp-form-fields {
+	& input[type=email] {
+		width: 210px;
+		padding: 5px;
+	}
+	& input[type=submit] {
+	margin-top: 10px;
+	background-color: #00b3b0;
+	color: #fff;
+	box-shadow: 0 3px 0 #128481;
+	padding: 8px 15px 5px 15px;
+	border: none;
+	font-family: "Source Sans Pro",sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+		&:hover {
+			background-color: #128481;
+			box-shadow: 0 3px 0 #005A58;
+		}
+	}
+}
