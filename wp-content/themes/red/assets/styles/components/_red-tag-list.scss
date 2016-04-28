@@ -1,0 +1,15 @@
+.red-tag-link {
+  @extend .btn;
+  box-shadow: none;
+  background-color: $light-grey;
+  display: inline-block;
+  color: $low-grey;
+}
+
+.red-related-tags-list {
+  display: block;
+
+  .red-tag-link {
+    margin: 0 2px 5px 0;
+  }
+}

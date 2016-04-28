@@ -1,0 +1,110 @@
+h2.red-list-page-title {
+  font: $page-title-font;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  color: $dark-grey;
+  @include anti-aliaze();
+}
+
+.red-thumbnail-link {
+  width: 100%;
+  min-height: 100px;
+  background-image: url(http://placehold.it/600x400); 
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-bottom: 30px;
+}
+
+.red-img-responsive {
+  @extend .red-thumbnail-link;
+  margin-bottom: 0;
+}
+
+.red-thumbnail-small {
+    width: 150px;
+    height: 100px;
+    background-size: cover;
+    background-position: center top;
+    display: inline-block;
+}
+
+.red-thumbnail {
+  min-height: 510px;
+  margin-bottom:20px;
+
+  .red-thumbnail-link {
+    margin-bottom: 36px;
+  }
+
+  .caption {
+    padding: 0;
+  }
+
+  .byline {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $dark-grey;
+    font-family: $base-font-family;
+
+    a, time {
+      font-weight: 700;
+      color: $dark-grey;
+      @include anti-aliaze();
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 2px;
+    @include anti-aliaze();
+  }
+
+  .entry-summary {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.red-video-thumbnail {
+
+  .byline.author.vcard {
+    margin-top:15px;
+  }
+
+  video.selected {
+    border: 1px $white solid;
+    @include box-shadow(0px,0px,5px,1px,$REDD-red);
+  }
+}
+
+@media (min-width: 992px) {
+  .red-thumbnail {
+    min-height: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .red-thumbnail {
+    min-height: 550px;
+  }
+}
+
+.red-tags {
+  font-size: 14px;
+  line-height: 19px;
+  color: $grey;
+  margin: 10px 0 10px 0;
+  @include anti-aliaze();
+
+  a {
+    color: $grey;
+    &:hover {
+      color: $REDD-red;
+    }
+  }
+}
+

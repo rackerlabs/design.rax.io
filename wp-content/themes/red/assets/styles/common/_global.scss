@@ -1,0 +1,52 @@
+/* Typography */
+body { font: $body-font; }
+.main {
+  padding: 0;
+}
+
+p {  font: $body-font; }
+
+a { 
+	color: $REDD-red; 
+}
+
+h3 { 
+
+	color: $dark-grey;
+	font-weight: 900; 
+	font: $body-font;
+	display: block; 
+	text-transform: uppercase;
+
+	a { color: $REDD-red; font-weight: 900; }
+
+ }
+
+.index a.fn {
+	color: $dark-grey;
+}
+ 
+ 
+
+
+/* Navigation */
+
+.nav {
+
+	li {
+
+		a { 
+			text-transform: uppercase; 
+			font: $nav-font;
+			letter-spacing: .05em;
+		}
+	}
+}
+
+.wrap {
+	padding-top: $navbar-height;
+}
+
+.row-title {
+ /*  margin-left: 15px; */
+}

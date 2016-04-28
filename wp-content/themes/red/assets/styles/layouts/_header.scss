@@ -1,0 +1,126 @@
+.red-brand {
+  background: #CD0923;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 18px 25px;
+  margin-right: 18px;
+
+  & span {
+    color: #fff;
+  }
+}
+
+header {
+
+  .container>.navbar-header .red-brand {
+    margin-left: 0px;
+  }
+
+  .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: #000;
+    transform: translate(0,0);
+    -webkit-transition: -webkit-transform .3s;
+    -moz-transition: -moz-transform .3s;
+    -ms-transition: -ms-transform .3s;
+    -o-transition: -o-transform .3s;
+    transition: transform .3s;
+    &.header-hidden {
+      -webkit-transform: translate(0,-100%);
+      -moz-transform: translate(0,-100%);
+      -ms-transform: translate(0,-100%);
+      -o-transform: translate(0,-100%);
+      transform: translate(0,-100%);
+    }
+  }
+}
+
+.navbar-nav {
+
+  &>li { 
+    &:hover {
+      background-color: #222;
+    }
+    &>a {
+      color: $light-grey;
+      font-size: 15px;
+      padding-top: 18px;
+      padding-bottom: 11px;
+      @include anti-aliaze();
+
+      .fa {
+        font-size: 12px;
+        margin-left: 10px;
+        padding-top:2px;
+      }
+    }
+    &.current_page_item > a,
+    &.current_page_parent > a {
+      color: $white;
+    }
+  }
+
+  .sub-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    overflow: hidden;
+    background-color: $black;
+    position: absolute;
+    min-width: 100%;
+
+    a {
+      display: block;
+      text-transform: none;
+      font-weight: 200;
+      letter-spacing: 0;
+      font-size: 1em;
+      padding: 10px 15px 8px 15px;
+      white-space: nowrap;
+      color: $medium-grey;
+
+      &:hover {
+        background-color: #222;
+        color: $white;
+      }
+    }
+
+    .current-menu-item > a {
+      color: $white;
+    }
+  }
+
+
+  
+}
+
+
+
+.red-header {
+  background-color: $ultra-grey;
+  min-height: $page-header-height;
+  margin-bottom: 40px;
+  // padding-bottom: 20px;
+  // padding-top: 30px;
+
+  .byline.author.vcard {
+    margin-top: 35px;
+  }
+
+  .search-form {
+    position: relative;
+  }
+
+  .search-field {
+    background-color: $white;
+    border: 1px $grey solid;
+    color: $dark-grey;
+    font: $body-font;
+    width: 296px;
+    height: 35px;
+    margin-right: 5px;
+    @include borderRadius(0px,0px,0px,0px);
+  }
+}
