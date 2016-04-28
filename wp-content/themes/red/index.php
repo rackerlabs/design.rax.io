@@ -1,4 +1,3 @@
-<h1>TESTING</h1>
 <div class="index">
     <?php get_template_part('templates/page', 'header'); ?>
 </div>
