@@ -33,7 +33,7 @@ script:
 - phpunit test.php
 
 after_success:
-- ln -sv /home/travis/build/araiford/design.rax.io/wp-content/themes/red/assets/manifest-sample.json /home/travis/build/araiford/design.rax.io/wp-content/themes/red/assets/manifest.json
+- ln -sv /home/travis/build/rackerlabs/design.rax.io/wp-content/themes/red/assets/manifest-sample.json /home/travis/build/rackerlabs/design.rax.io/wp-content/themes/red/assets/manifest.json
 - cd wp-content/themes/red/
 - gulp build
 - cd ../
