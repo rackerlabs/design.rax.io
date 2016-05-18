@@ -1,0 +1,66 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-default;
+}
+
+//Styling for image gallery plugin
+
+.wc-gallery .gallery-item {
+	//border: 1px solid #ccc;
+
+	img { border-radius: 3px; }
+
+	.gallery-icon.portrait {
+		//border-radius: 8px;
+	}
+}
+
+.wc-gallery {
+	padding-top: 1px;
+	background: $gallery-bg-grey;
+
+	.gallery {
+	//margin-top: 20px;
+	margin: 20px;
+	}
+}
+
+.red-search-input {
+  padding: 4px 5px 0px 5px;
+}
+
+.navbar {
+
+  .red-search-form-item {
+    &:hover,
+    &.hover {
+      background-color: #000;
+    }
+  }
+
+
+  .red-search-input {
+    background: transparent;
+    border: 1px $grey solid;
+    margin: 13px 0 0 0;
+    font-weight: 200;
+    color: $light-grey;
+  }
+
+}
+
+// if we get ambitious we should do a little jquery call to move .wc-gallery above any content (even if the content was written first) - I don't want writers to be able
+//to put the masonry gallery in the middle of the article...
+
+

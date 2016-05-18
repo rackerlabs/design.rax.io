@@ -1,0 +1,49 @@
+// Font paths
+$icon-font-path:        "../fonts/";
+$text-font-path:  "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+$thumbnail-ratio: 0.6666667;
+
+// Layout
+$page-header-height: 167px;
+$navbar-height: 51px;
+
+// Colors
+$white:           #fff;
+$black:           #000;
+$brand-primary:   #27ae60;
+$REDD-red:				#D0021B;
+$dark-grey:       #333; /* use this for most font color */
+$low-grey:        #4A4A4A;
+$grey:            #666;
+$medium-grey:			#aaa;
+$light-grey:			#D8D8D8;  /* the divider bars */
+$gallery-bg-grey:	#eee;
+$ultra-grey:			#f8f8f8; /* The article / page header background grey */
+
+
+$teal10:      	#005A58;
+$teal20:        #128481;
+$teal30:        #00B3B0;
+$teal40:        #98CDCB;
+$teal50:        #B4E3E2;
+
+//Typography
+$base-font-family: "Source Sans Pro", sans-serif;
+$alt-font-family: "Roboto Condensed", sans-serif;
+
+$body-font: 		  	15px/1.5em $base-font-family;
+$article-font: 			15px/1.5em $base-font-family;
+$nav-font:        		600 12px/1.4em $base-font-family;
+$page-title-font: 		700 20px/1.25em $base-font-family;
+$headline:				$alt-font-family;
+$h3headline:			$base-font-family;
+$blockquote:			"arvo", sans-serif;
+
+//Links
+$link-color: 				$REDD-red;
+$link-hover-color:			#8D0011;
+ $link-hover-decoration:	none;
