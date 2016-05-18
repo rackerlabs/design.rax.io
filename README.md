@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/araiford/design.rax.io.svg?token=SU2zWAESxgz3Fsdqmsv4&branch=master)](https://travis-ci.com/araiford/design.rax.io)
 
-This repo contains the source code for the internal blog of Rackspace Experience Design. For details on infrastructure hosting the site, including firewalls and logins see our [Rackspace Wiki page](https://one.rackspace.com/display/RED/design.rax.io).
+This repo contains the source code for the internal blog of Rackspace Experience Design.
 
 
 # Dev Environment Setup
