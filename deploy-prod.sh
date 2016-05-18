@@ -9,3 +9,4 @@ rm package.tgz
 rm -rf red_old
 mv /var/www/html/wp-content/themes/red /root/red_old
 mv red /var/www/html/wp-content/themes/red
+cp wp-config-prod.php /var/www/html/
