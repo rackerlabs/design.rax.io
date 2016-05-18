@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-
+<h1>BLANGO TO THE MANGO</h1>
     <?php 
 
       $cat_name = 'Interaction Design';
