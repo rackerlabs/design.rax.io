@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-
+BLANGO TO THE MANGO
     <?php 
 
       $cat_name = array (
