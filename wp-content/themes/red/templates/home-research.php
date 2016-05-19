@@ -19,8 +19,21 @@
     <?php get_search_form(); ?>
   <?php endif; ?>
 
-  <div class="col-xs-2">
+  <div class="col-xs-3 red-about-us">
+    <h3 class="row-title">About US</h3>
+    <p>We are Rackspace Experience Design (RED). As researchers, designers and developers we collaborate with other Rackers to build products our customers love. <a href="http://design.rax.io/?page_id=1245">Learn More...</a></p>
+
+    <h3 class="row-sub-title">Let's Work Together</h3>
+    <p>If you'd like to get help with research, design or requirements, please complete our brief <a href="https://one.rackspace.com/pages/viewpage.action?title=How+to+Get+Help+from+REDD&spaceKey=RED">intake form</a> to get started.</p>
+
+    <h3 class="row-sub-title">Our focus</h3>
+    <p>To learn more about RED's current focus, <a href="https://drive.google.com/a/gapps.rackspace.com/folderview?id=0B3atUD81E-c9X0hWNHd3Z0xlUFk&usp=sharing">our team OKRs</a> are a great place to start. </p>
+
   </div>
+
+  <div class="col-xs-1">
+  </div>
+
   <div class="col-xs-8 red-sidebar">
       <?php if (have_posts()) : ?>
       <h3 class="row-title">Latest Articles</h3>
