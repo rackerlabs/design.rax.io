@@ -157,7 +157,6 @@ h1.entry-title {
   }
 }
 
-
 .home-research-section {
   background-color: #ffffff; // #F8F8F8;
   padding-top: 1%;
@@ -175,9 +174,20 @@ h1.entry-title {
 
 h3.row-title {
   font-family: $h3headline;
-  color: $REDD-red;
+  color: $teal30;
   font-weight: bold;
   margin-bottom: 30px;
+}
+
+.red-about-us {
+
+  h3.row-sub-title {
+    font-family: $h3headline;
+    color: $dark-grey;
+    font-weight: bold;
+    margin: 40px 0 5px 0;
+  }
+
 }
 
 .newsletter-bar {
