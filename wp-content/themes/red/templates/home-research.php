@@ -27,7 +27,7 @@
     <p>If you'd like to get help with research, design or requirements, please complete our brief <a href="https://one.rackspace.com/pages/viewpage.action?title=How+to+Get+Help+from+REDD&spaceKey=RED">intake form</a> to get started.</p>
 
     <h3 class="row-sub-title">Our focus</h3>
-    <p>To learn more about RED's current focus, <a href="https://drive.google.com/a/gapps.rackspace.com/folderview?id=0B3atUD81E-c9X0hWNHd3Z0xlUFk&usp=sharing">our team OKRs</a> are a great place to start. </p>
+    <p>To learn more about RED's current focus, <a href="https://inside.rackspace.com/departments/newgrowthbusinesses/IPA/Pages/OKRs.aspx">our team OKRs</a> are a great place to start. </p>
 
   </div>
 
