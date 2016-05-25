@@ -4,9 +4,29 @@
   font-size: 24px;
   padding: 18px 25px;
   margin-right: 18px;
+  transition: 0.5s all ease;
 
   & span {
     color: #fff;
+  }
+}
+
+.navbar-nav>li {
+  &:hover {
+    transition: 0.5s all ease;
+  }
+  &>a {
+    transition: 0.5s all ease;
+  }
+}
+
+#search {
+  transition: 0.5s all ease;
+  &::-webkit-input-placeholder,
+  :-moz-placeholder,
+  ::-moz-placeholder,
+  :-ms-input-placeholder {
+    transition: 0.5s all ease;
   }
 }
 
@@ -20,25 +40,45 @@ header {
     border-radius: 0;
     margin-bottom: 0;
     background-color: #000;
-    transform: translate(0,0);
-    -webkit-transition: -webkit-transform .3s;
-    -moz-transition: -moz-transform .3s;
-    -ms-transition: -ms-transform .3s;
-    -o-transition: -o-transform .3s;
-    transition: transform .3s;
-    &.header-hidden {
-      -webkit-transform: translate(0,-100%);
-      -moz-transform: translate(0,-100%);
-      -ms-transform: translate(0,-100%);
-      -o-transform: translate(0,-100%);
-      transform: translate(0,-100%);
+    transition: 0.5s all ease;
+    &.shrink {
+      min-height: 20px;
+      max-height: 20px;
+      .red-brand {
+        padding-top: 3px;
+        padding-bottom: 17px;
+        font-size: 18px;
+        height:20px;
+      }
+      .navbar-nav>li>a {
+        padding-top: 3px;
+        padding-bottom: 1px;
+        font-size: 12px;
+      }
+      .navbar-nav>li:hover {
+        height: 20px;
+      }
+      .sub-menu>li {
+        font-size: 12px;
+      }
+      #search {
+        margin-top: 0;
+        padding: 0 0 0 5px;
+        height: 19px;
+        &::-webkit-input-placeholder,
+        :-moz-placeholder,
+        ::-moz-placeholder,
+        :-ms-input-placeholder{
+          font-size: 12px;
+        }
+      }
     }
   }
 }
 
 .navbar-nav {
 
-  &>li { 
+  &>li {
     &:hover {
       background-color: #222;
     }
@@ -91,19 +131,12 @@ header {
       color: $white;
     }
   }
-
-
-  
 }
-
-
 
 .red-header {
   background-color: $ultra-grey;
   min-height: $page-header-height;
   margin-bottom: 40px;
-  // padding-bottom: 20px;
-  // padding-top: 30px;
 
   .byline.author.vcard {
     margin-top: 35px;
